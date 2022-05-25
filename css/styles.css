@@ -1,0 +1,25 @@
+
+:root {
+    --primary-color: #070000;
+    --secondary-color: white;
+}
+
+body {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+}
+
+header h3 {
+    font-size: 1.25rem;
+}
+
+main .img-container img  {
+    width: 20rem;
+}
+
+main .game-data .discovered-letters {
+    letter-spacing: 1rem;
+}
